@@ -78,16 +78,32 @@
             <div id="carouselExampleAutoplaying" class="carousel slide hero-overlay" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./ban1.jpeg" class="banimg" alt="...">
+                        
+                        <picture>
+                            <!-- Desktop: shows when viewport ≥ 768px -->
+                            <source media="(min-width: 768px)" srcset="./ban1-desktop.png">
+                            <!-- Mobile: shows when viewport < 768px -->
+                            <source media="(max-width: 767px)" srcset="./ban1-mobile.png">
+                            <!-- Fallback img -->
+                            <img src="./ban1-desktop.png" class="banimg" alt="Banner 1">
+                        </picture>
                     </div>
                     <div class="carousel-item">
-                        <img src="./ban2.jpg" class="banimg" alt="...">
+                        <picture>
+                            <source media="(min-width: 768px)" srcset="./ban2-desktop.png">
+                            <source media="(max-width: 767px)" srcset="./ban2-mobile.png">
+                            <img src="./ban2-desktop.png" class="banimg" alt="Banner 2">
+                        </picture>
                     </div>
                     <div class="carousel-item">
-                        <img src="./ban3.jpeg" class="banimg" alt="...">
+                        <picture>
+                            <source media="(min-width: 768px)" srcset="./ban3-desktop.jpeg">
+                            <source media="(max-width: 767px)" srcset="./ban3-mobile.png">
+                            <img src="./ban3-desktop.jpeg" class="banimg" alt="Banner 3">
+                        </picture>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
@@ -96,7 +112,7 @@
                     data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
-                </button>
+                </button> -->
             </div>
 
 
@@ -111,7 +127,7 @@
                 </p> -->
                 <div class="hero-buttons">
                     <a href="#contact" class="btn btn-primary">Get Started</a>
-                    <a href="#about" class="btn btn-outline">Learn More</a>
+                    <a href="#about" class="btn btn-danger">Learn More</a>
                 </div>
             </div>
         </section>
@@ -677,27 +693,27 @@
                 </p>
                 <div class="social-links">
                     <!-- Facebook -->
-                    <a href="https://facebook.com" target="_blank"  class="social-link" aria-label="Facebook">
+                    <a href="https://facebook.com" target="_blank" class="social-link" aria-label="Facebook">
                         <i class="fab fa-facebook-f"></i>
                     </a>
 
                     <!-- Twitter -->
-                    <a href="https://twitter.com"  target="_blank" class="social-link" aria-label="Twitter">
+                    <a href="https://twitter.com" target="_blank" class="social-link" aria-label="Twitter">
                         <i class="fab fa-twitter"></i>
                     </a>
 
                     <!-- LinkedIn -->
-                    <a href="https://linkedin.com"  target="_blank" class="social-link" aria-label="LinkedIn">
+                    <a href="https://linkedin.com" target="_blank" class="social-link" aria-label="LinkedIn">
                         <i class="fab fa-linkedin-in"></i>
                     </a>
 
                     <!-- Instagram -->
-                    <a href="https://instagram.com" target="_blank"  class="social-link" aria-label="Instagram">
+                    <a href="https://instagram.com" target="_blank" class="social-link" aria-label="Instagram">
                         <i class="fab fa-instagram"></i>
                     </a>
 
                     <!-- WhatsApp -->
-                    <a href="https://wa.me/919488469277" target="_blank"  class="social-link" aria-label="WhatsApp">
+                    <a href="https://wa.me/919488469277" target="_blank" class="social-link" aria-label="WhatsApp">
                         <i class="fab fa-whatsapp"></i>
                     </a>
 
